@@ -8,4 +8,5 @@ RUN apt-get install -y git make libhdf5-dev hdf5-tools wget emacs
 RUN git clone https://github.com/GPUSPH/gpusph.git
 WORKDIR "/gpusph/"
 
-CMD make test
+#ENTRYPOINT ["make"]
+CMD make list-problems
