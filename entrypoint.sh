@@ -1,3 +1,4 @@
 #!/bin/sh
 
-make test
+make
+./GPUSPH --dem $1
