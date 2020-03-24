@@ -1,0 +1,35 @@
+{
+  "description": "My iExec ressource description, must be at least 150 chars long in order to pass the validation checks. Describe your application, dataset or workerpool to your users",
+  "license": "MIT",
+  "author": "er@iex.ec",
+  "social": {
+    "website": "https://iex.ec",
+    "github": "?"
+  },
+  "logo": "logo.png",
+  "buyConf": {
+    "params": "",
+    "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "trust": "0",
+    "callback": "0x0000000000000000000000000000000000000000"
+  },
+  "app": {
+    "owner": "0x47d0Ab8d36836F54FD9587e65125Bbab04958310",
+    "name": "GPUSPH",
+    "type": "DOCKER",
+    "multiaddr": "registry.hub.docker.com/iexechub/gpusph:1.0",
+    "checksum": "0x7f43d241427db0986362669502e07cad0f3bd917f90b2b95bed36305ca70a131",
+    "mrenclave": ""
+  },
+  "order": {
+    "apporder": {
+      "app": "0xce6B4F8d05BC500b52adeA5374952a44006C633D",
+      "appprice": "0",
+      "volume": "1000000",
+      "tag": "0x0000000000000000000000000000000000000000000000000000000000000100",
+      "datasetrestrict": "0x0000000000000000000000000000000000000000",
+      "workerpoolrestrict": "0x0000000000000000000000000000000000000000",
+      "requesterrestrict": "0x0000000000000000000000000000000000000000"
+    }
+  }
+}
